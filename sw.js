@@ -1,5 +1,5 @@
-const CACHE = 'despensa-v3';
-const ASSETS = ['./index.html', './manifest.json'];
+const CACHE = 'despensa-v4-mx';
+const ASSETS = ['./index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
@@ -25,8 +25,8 @@ self.addEventListener('push', e => {
   const data = e.data?.json() || {};
   self.registration.showNotification(data.title || 'Despensa', {
     body: data.body || '',
-    icon: './icon-192.png',
-    badge: './icon-192.png',
+    icon: './icon.svg',
+    badge: './icon.svg',
     tag: data.tag || 'despensa'
   });
 });
