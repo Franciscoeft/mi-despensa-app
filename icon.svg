@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#1c1813"/>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#110e0b"/>
+    </linearGradient>
+  </defs>
+  <text x="256" y="310" font-size="260" text-anchor="middle" font-family="serif">🍞</text>
+  <text x="256" y="460" font-size="72" text-anchor="middle" font-family="Georgia,serif" font-style="italic" fill="#e8a730" font-weight="700">Despensa</text>
+</svg>
